@@ -1,0 +1,12 @@
+To update your computer's repository
+with the files from someone else's repository
+
+Forking a Repository
+1. Make sure you have a fork of the repository
+2. git remote add origin "https://yourforkname.com"
+3. git pull origin "branchname"
+
+Updating your Repository from Someone Else's
+1. git remote add upstream "https://originalrepositoryname.com"
+2. git pull upstream master
+3. git 
