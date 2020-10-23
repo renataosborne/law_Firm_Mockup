@@ -1,0 +1,70 @@
+.col {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.picture {
+    margin-bottom: 30px;
+    margin-right: 25px;
+    display: block;
+}
+
+#sidebar_Container {
+    background-color: #923530;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar_Container a {
+    color: white;
+}
+
+#sidebar_Container a:hover {
+    text-decoration: none;
+}
+
+#sidebar_Header {}
+
+/* Needs Work */
+
+#sidebar_HR {
+    color: white;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#sidebar_Lists {}
+
+.sb_List {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sb_Sublist {
+    list-style-type: none;
+    padding-left: 1.25em;
+}
+
+.sb_Sublist li {}
+
+.sb_Sublist li {}
+
+#image_Container {
+    padding: 0;
+}
+
+#sidebar_Image {}
+
+#text_Container {
+    margin-top: 1em;
+    padding: 0;
+}
+
+#sidebar_Attorneys {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#sidebar_Text {}
