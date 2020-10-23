@@ -1,0 +1,10 @@
+.col{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.picture {
+    margin-bottom: 30px;
+    margin-right: 25px;
+    display: block;
+}
