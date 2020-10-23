@@ -1,12 +1,25 @@
-.col {
-    padding-left: 1px;
-    padding-right: 1px;
+.picture-left {
+    margin-bottom: 30px;
+    padding:0;
+    display:inline-block;
 }
 
-.picture {
+.picture-right {
     margin-bottom: 30px;
-    margin-right: 25px;
-    display: block;
+    padding:0;
+    display:inline-block;
+}
+
+#content_Container {
+    padding-left:2em;
+}
+
+#content_Container p{
+    margin-bottom:2em;
+}
+
+#images_Container{
+    padding:0;
 }
 
 #sidebar_Container {
@@ -23,7 +36,11 @@
     text-decoration: none;
 }
 
-#sidebar_Header {}
+#sidebar_Header {
+    font-size:1.2em;
+    font-weight:bold;
+    margin-top:1em;
+}
 
 /* Needs Work */
 
