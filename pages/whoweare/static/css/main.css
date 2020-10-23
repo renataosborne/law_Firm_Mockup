@@ -1,3 +1,6 @@
+.locations_list {
+    margin-top: 100px;
+}
 .locations_list_header{
     border-bottom: 2px solid grey;  
     padding-bottom: 20px;
@@ -5,7 +8,9 @@
 }
 .locations_list_items > p{
     margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: 0px;
+    line-height: 1.15;
 }
 .locations_list_row {
     margin-top: 0px;
@@ -18,4 +23,5 @@
 }
 .sidebar > h4 {
     border-bottom: 3px solid white;
+    padding-bottom: 5px;
 }
