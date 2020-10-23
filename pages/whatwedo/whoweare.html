@@ -10,7 +10,7 @@
         <!-- My Stylesheet -->
         <link rel="stylesheet" href="main.css">
         <!-- Page Specific CSS -->
-        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="whoweare.css">
         <title>Who We Are</title>
     </head>
     <body>
@@ -27,63 +27,65 @@
             <div class="containter row" id="content">
 
               <!-- Sidebar -->
-              <div class="col-lg-3">
+              <div class="col-lg-3" id="sidebar_Container">
                 <!-- Sidebar Header -->
-                <h2 id="sidebar_Header">What We Do</h2>
-                <hr/>
+                <h2 id="sidebar_Header">WHAT WE DO</h2>
+                <hr id="sidebar_HR" />
                 <!-- Sidebar Lists -->
                 <div class="containter" id="sidebar_Lists">
                   <ul class="sb_List">
-                    <li>Subrogation
+                    <li><a href="#">Subrogation</a>
                       <ul class="sb_Sublist">
-                        <li>Property</li>
-                        <li>Workers' Comp</li>
-                        <li></li>
+                        <li><a href="#">Property</a></li>
+                        <li><a href="#">Workers' Comp</a></li>
+                        <li><br /></li>
                       </ul>
                     </li>
-                    <li>Litigation
+                    <li><a href="#">Litigation</a>
                       <ul class="sb_Sublist">
-                        <li>Appeliate</li>
-                        <li>Commerical</li>
-                        <li>Defense</li>
-                        <li>Labor/Employment</li>
+                        <li><a href="#">Appeliate</a></li>
+                        <li><a href="#">Commerical</a></li>
+                        <li><a href="#">Defense</a></li>
+                        <li><a href="#">Labor/Employment</a></li>
+                        <li><br /></li>
                       </ul>
                     </li>
-                    <li>Business
+                    <li><a href="#">Business</a>
                       <ul class="sb_Sublist">
-                        <li>Brokerage Agreement</li>
-                        <li>Business Formation</li>
-                        <li>Business Relate</li>
-                        <li>Contracts</li>
-                        <li>Property</li>
-                        <li>Labor/Employment</li>
+                        <li><a href="#">Brokerage Agreement</a></li>
+                        <li><a href="#">Business Formation</a></li>
+                        <li><a href="#">Business Relate</a></li>
+                        <li><a href="#">Contracts</a></li>
+                        <li><a href="#">Property</a></li>
+                        <li><a href="#">Labor/Employment</a></li>
+                        <li><br /></li>
                       </ul>
-                    </li>
-                    <li>Transportation
+                    </a></li>
+                    <li><a href="#">Transportation</a>
                       <ul class="sb_Sublist">
-                        <li>Brokerage Agreement</li>
-                        <li>Business Formation</li>
+                        <li><a href="#">Brokerage Agreement</a></li>
+                        <li><a href="#">Business Formation</a></li>
                       </ul>
                     </li>
                   </ul>
                 </div>
                 <!-- End Sidebar Lists-->
                 <!-- Sidebar Image -->
-                <div class="container-fluid">
-                  <img src="../../assignment_Resources/images/sub-01-attorneys.jpg" />
+                <div class="container" id="image_Container">
+                  <img class="img-fluid" id="sidebar_Image" src="../../assignment_Resources/images/sub-01-attorneys.jpg" />
                 </div>
                 <!--End Sidebar Image -->
                 <!-- Sidebar Attorneys -->
-                <div class="container">
-                  <a href="../attorneys/attorneys.html"><h4>Attorneys</h4></a>
+                <div class="container" id="text_Container">
+                  <a href="../attorneys/attorneys.html"><p id="sidebar_Attorneys">Attorneys</p></a>
                   <p id="sidebar_Text">Lorem ipsum dolor sit amet consectetur, adipiscing elit.</p>
                 </div>
               </div>
               <!-- End Sidebar -->
 
               <!-- Main -->
-              <div class="col-lg-9" style="float:left;">
-  
+              <div class="col-lg-9">
+                <!-- Renata's Code -->
               </div>
               <!-- End Main -->
             </div>
