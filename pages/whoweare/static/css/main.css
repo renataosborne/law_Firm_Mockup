@@ -1,0 +1,8 @@
+.locations_list_header{
+    border-bottom: 2px solid grey;  
+    padding-bottom: 10px;
+}
+.locations_list_items > p{
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
