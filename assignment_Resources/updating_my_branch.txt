@@ -12,6 +12,7 @@ Updating your Repository from Someone Else's
 3. git 
 
 
+
 Creating a new Branch:
 git checkout -b <branch_name>
 #Switch to new branch
