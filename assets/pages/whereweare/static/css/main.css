@@ -1,27 +1,79 @@
-.locations_list {
-    margin-top: 100px;
+#inner {
+    background-color: white;
+    padding: 0rem 3rem 3rem 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.locations_list_header{
-    border-bottom: 2px solid grey;  
-    padding-bottom: 20px;
-    margin-bottom: 0px;
+
+.logbut {
+    border-style: solid;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color: black;
+    border-width: 0px;
+    color: darkgray;
+    font-size: 10pt;
 }
-.locations_list_items > p{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    line-height: 1.15;
+.nav{
+    margin-bottom: 15px;
 }
-.locations_list_row {
-    margin-top: 0px;
+
+#logo-head {
+    width: 30%;
 }
-.sidebar {
-    background: rgb(131,15,7);
-    background: linear-gradient(180deg, rgba(131,15,7,1) 0%, rgba(108,11,4,1) 100%);
-    color: white;
-    padding: 10px;
+
+ul.link-style>li>a:link {
+    color: black !important
 }
-.sidebar > h4 {
-    border-bottom: 3px solid white;
-    padding-bottom: 5px;
+
+ul.link-style>li>a:link {
+    color: black !important;
+}
+
+ul.link-style>li>a:active {
+    color: black !important;
+}
+
+ul.link-style>li>a:visited {
+    color: black !important;
+}
+
+.navbar-border {
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.border-right {
+    border-right: 0px !important;
+    border-right-color: #767676;
+    padding: 0 20px !important;
+    width: 20%;
+    background: linear-gradient(#ada9a9, #ada9a9) right / 2px 50%, white;
+    background-repeat: no-repeat;
+}
+
+ul.borderrem>li:last-child {
+    background: none !important;
+}
+
+.footer-border {
+    border-color: black;
+    border-top: solid;
+    border-top-width: 2px;
+    margin-top: 20px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-margin {
+    margin-top: 4px;
+}
+
+.dash {
+    color: grey;
+}
+
+.copyright {
+    color: #767676;
 }
