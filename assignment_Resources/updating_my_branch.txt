@@ -10,3 +10,14 @@ Updating your Repository from Someone Else's
 1. git remote add upstream "https://originalrepositoryname.com"
 2. git pull upstream master
 3. git 
+
+
+Create a new Branch:
+git checkout -b <branch_name>
+#Switch to new branch
+git checkout <branch_name>
+
+push a new branch to github
+git add .
+git commit -m "message"
+git push --set-upstream origin <branch_name>
