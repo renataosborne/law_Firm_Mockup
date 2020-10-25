@@ -7,11 +7,19 @@
 }
 
 .add {
-    color:black;
+    color: black;
+}
+
+.txt {
+    color:white;
 }
 
 .side {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background: rgb(131, 15, 7);
+    background: linear-gradient(180deg, rgba(131, 15, 7, 1) 0%, rgba(108, 11, 4, 1) 100%);
+    color: white;
+    padding: 10px;
 }
