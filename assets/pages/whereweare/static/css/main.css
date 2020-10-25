@@ -8,7 +8,7 @@
 }
 .locations_list_items > p{
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 0px;
     line-height: 1.15;
 }
@@ -24,4 +24,15 @@
 .sidebar > h4 {
     border-bottom: 3px solid white;
     padding-bottom: 5px;
+}
+.page_content {
+    margin-top: 50px;
+}
+.text_container {
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.text_paragraph {
+    line-height: 1.75;
+    font-size: 18px;
 }
