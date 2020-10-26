@@ -1,0 +1,25 @@
+<!doctype html5>
+<html lang="en">
+<html>
+    <head>
+        <meta http-equiv="refresh" content="2; URL=./pages/homepage/homepage.html" />
+    </head>
+<body>
+        <script type='text/javascript'>
+            var timeleft = 2;
+            var downloadTimer = setInterval(function () {
+                if (timeleft <= 0) {
+                    clearInterval(downloadTimer);
+                    document.getElementById("countdown").innerHTML = "Goodbye!";
+                } else {
+                    document.getElementById("countdown").innerHTML = "You Will be directed to the homepage " + timeleft + " seconds";
+                }
+                timeleft -= 1;
+            }, 1000);
+        </script>
+        <p>
+        <div id="countdown"> </div>
+        </p>
+
+</body>
+</html>
